@@ -1,0 +1,19 @@
+# ambiente virtual
+.venv/
+
+# cache python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# build do pyinstaller
+build/
+dist/
+*.spec
+
+# sistema
+.DS_Store
+Thumbs.db
