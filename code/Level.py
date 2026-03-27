@@ -126,7 +126,7 @@ class Level:
                 dog = Dog(
                     dog_img,
                     820,
-                    random.randint(50, 550)
+                    random.randint(100, 500)
                 )
 
                 dogs.append(dog)

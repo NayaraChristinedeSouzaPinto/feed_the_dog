@@ -17,5 +17,5 @@ class Dog(Entity):
 
         self.rect.y += self.speed_y * self.direction
 
-        if self.rect.top <= 0 or self.rect.bottom >= 600:
+        if self.rect.top <= 5 or self.rect.bottom >= 595:
             self.direction *= -1
